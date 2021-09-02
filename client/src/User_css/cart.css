@@ -1,0 +1,114 @@
+.cartt
+{
+    display: inline-block;
+    height: 100%;
+   position: relative;
+   left: 20%;
+   margin-top: 2%;
+   border-spacing: 6px;
+   z-index: 1;
+}
+
+/* .tablebody{border: 2px solid red;} */
+.producttitle{border-radius: 10px;float: left;display: flex;padding:3px;font-family: Comic Sans MS;padding-right: 300px;font-size: 17px;font-weight: 600;background-color: white;border:2px solid gray;}
+.productprice{border-radius: 10px;text-align: center;padding:3px;font-family: Comic Sans MS;font-size: 17px;font-weight: 600;background-color: white;border:2px solid gray;}
+.productquantity{border-radius: 10px;text-align: center;padding:3px;font-family: Comic Sans MS;font-size: 17px;font-weight: 600;background-color: white;border:2px solid gray;}
+.productamount{border-radius: 10px;text-align: center;padding:3px;font-family: Comic Sans MS;font-size: 17px;font-weight: 600;background-color: white;border:2px solid gray;}
+.titlecolumn{border-radius: 10px;padding:3px;font-family: Comic Sans MS;font-size: 15.5px;font-weight: 500;background-color: white;border:2px solid gray;}
+.pricecolumn{border-radius: 10px;padding:3px;text-align: center;font-family: Comic Sans MS;background-color: white;border:2px solid gray;}
+.quantitycolumn{border-radius: 10px;padding:3px;text-align: center;font-family: Comic Sans MS;background-color: white;border:2px solid gray;}
+.totalpricecolumn{border-radius: 10px;padding:3px;text-align: center;font-family: Comic Sans MS;background-color: white;border:2px solid gray;}
+.deletebtncolumn{border-radius: 10px;padding:3px;text-align: center;font-family: Comic Sans MS;}
+.delete
+{
+    
+    padding: 5px;
+    border-radius: 10px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    background-color: rgb(199, 164, 199);
+    border: 2px solid purple;
+    color: purple;
+    cursor: pointer;
+}
+.increase
+{
+    color: green;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    outline: none;
+}
+.decrease
+{
+    color: red;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    font-weight: bolder;
+   position: relative;
+  
+}
+
+@media(max-width:400px)
+{
+
+    .cartt
+    {
+        
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        flex-direction: column;
+         left: 0%;
+        border-spacing: 4px;
+    }
+    .table
+    {
+        position: absolute;
+        left: 1px;
+        top: 18%;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-spacing : 3px;
+        border-radius: 2px;
+        width: 100%;
+    }
+    .producttitle
+    {
+        border-radius: 5px;
+        float: left;
+        display: flex;
+        padding:5px;
+        font-family: Comic Sans MS;
+        /* padding-right: 60px; */
+        font-size: 15px;
+        font-weight: 600;
+        background-color: rgb(252, 252, 252);
+        border:2px solid gray;
+    }
+    .delete
+    {
+        margin-left: 0px;
+        flex: 1;
+        padding: 1px;
+        border-radius: 5px;
+        padding-right: 2px;
+        text-align: center;
+        font-size: 10px;
+        font-family: Comic Sans MS;
+        font-weight: bold;
+        background-color: rgb(199, 164, 199);
+        border: 2px solid purple;
+        color: purple;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}

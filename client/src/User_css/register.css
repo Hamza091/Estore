@@ -1,0 +1,9 @@
+.register{
+    display:flex;
+    position: relative;
+    left: 770px;
+    color:darkblue;
+    font-size:15px;
+    font-weight:bold;
+    bottom: 70px;
+}

@@ -1,0 +1,12 @@
+export const GET_DATA='GET_DATA';
+export const DELETE_BILL='DELETE_BILL';
+export const GET_USERDATA='GET_USERDATA';
+export const ADD='ADD';
+export const USER_BILL='USER_BILL';
+export const INCREASE_QUANTITY='INCREASE_QUANTITY';
+export const DECREASE_QUANTITY='DECREASE_QUANTITY';
+export const DELETE_PRODUCT='DELETE_PRODUCT';
+export const UPDATE_CHECK='UPDATE_CHECK';
+export const UPDATE_LOGIN='UPDATE_LOGIN';
+export const GET_ORDERS='GET_ORDERS';
+export const CLEAR_USERDATA='CLEAR_USERDATA';

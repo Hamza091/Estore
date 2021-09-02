@@ -1,0 +1,467 @@
+.nav
+{
+    display: flex;
+    width: 100%;
+    background-color: rgba(78, 74, 74, 0.925);
+    height: 90px;
+}
+.list
+{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.estore
+{
+    margin-left:3%;
+    margin-right: 32%;
+    /* padding-left: 20px; */
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+.home
+{
+    margin-right: 90px;
+    margin-left: 523px;
+}
+.cart
+{
+    
+    position: relative;
+    /* border: 2px solid black; */
+    top: -18.5px;
+    left: 90px;
+ 
+}
+.login
+{
+    position: absolute;
+    font-size: 20px;
+    left: 81%;
+    
+}
+.logout
+{
+    position: absolute;
+    font-size: 20px;
+    left: 95%;
+    
+}
+.setCart
+{
+    position: relative;
+    top: -17px;
+    left: 17px;
+    
+}
+.setOrders
+{
+    position: relative;
+    left: -160px;
+}
+.orders
+{
+    position: relative;
+    left: -90px;
+    /* right: -50px; */
+
+}
+/* .one
+{
+    display: none;
+}
+.two
+{
+    display: none;
+}
+.three
+{
+    display: none;
+} */
+.hamburger
+{
+    display: none;
+}
+@media (max-width:1424px ) {
+
+    /* your conditional / responsive CSS inside this condition */
+   .estore
+   {
+      
+      margin-top: 0px;       
+       font-size: 20px;
+       font-weight: 600;
+        padding-top: 6.5%;
+        margin-left: 3%;
+       font-family: "Comic Sans MS", cursive, sans-serif; 
+       color: white;
+    }
+    .nav
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        /* padding-bottom: 1px; */
+    }
+    
+    .hamburger
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       /* border: 1px  solid red; */
+       position: absolute;
+       left: 88%;
+       top: 4%;
+       
+       cursor: pointer;
+       
+    }
+    .ham
+    {
+      
+       z-index: 3; 
+        width: 30px;
+        height: 5px;
+        background-color: darkgray;
+        margin-bottom:15%;
+    }
+    .list
+    {
+        display: none;
+    }
+    
+    .clickList
+    {
+        /* display: block; */
+        display: inline-block; 
+         /* flex-wrap: wrap;
+        flex-direction: column;  */
+        /* border: 2px solid red; */
+        position: relative;
+        background-color: rgba(78, 74, 74, 0.925);
+        /* opacity: 0.8; */
+        right: 0%;
+        top: -30%;
+        height: 100vh;
+        bottom: 0%;
+    }
+    .closeList
+    {
+        display: none;
+        height: 0%;
+        width: 0%;
+        position: absolute;
+        
+    }
+    .login
+    {
+        position: relative;
+        font-size: 20px;
+        margin-bottom: 5px;
+        left: 0%;
+        top: 13%;
+        
+    }
+    .orders
+    {
+        position: relative;
+        left: 0px;
+        margin-bottom: 5px;
+        top: 17%;
+    }
+    .setOrders
+    {
+        position: relative;
+        left: 0px;
+        margin-bottom: 5px;
+        top: 14%;
+    }
+    .setCart
+    {
+        position: relative;
+        top: 7%;
+        left: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .home
+    {
+        position: relative;
+        margin-right: 0px;
+        margin-left: 0px;
+        /* margin-bottom: 15px; */
+        top: 22%;
+        
+    }
+    .cart
+    {
+        position: relative;
+        top: 7%;
+        left: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .second
+    {
+        display: none;
+    }
+    
+    .first
+    {
+        transition-duration: 0.7s;
+        transform:translate(0px,9.57px) rotate(45deg) ;
+        
+        /* transform: rotate(45deg); */
+        
+    }
+    .third
+    {
+        transition-duration: 0.7s;
+        transform: rotate(-45deg);
+    }
+    .removecrossfirst
+    {
+        transition-duration: 0.7s;
+        transform: none;
+        /* all: none; */
+        
+        /* display: block;
+        z-index: 3; 
+        width: 30px;
+        height: 5px;
+        background-color: rgb(128, 120, 120);
+        margin-bottom:15%; */
+
+    }    
+    .removecrosssecond
+    {
+        display: block;
+    }
+    .removecrossthird
+    {
+        transition-duration: 0.7s;
+        transform: none;
+    }
+    /* .one
+    {
+       
+        position: relative;
+        width: 35px;
+        height: 5px;
+        background-color: darkgray;
+        left: 290%;
+        bottom: -25px;
+        cursor: pointer;
+        float: right; 
+        /* margin: 6px 0; 
+        /* margin: 10px;     
+    }
+    .two
+    {
+        
+        position: relative;
+        width: 35px;
+        height: 5px;
+        background-color: darkgray;
+        left: 256.9%;
+        bottom: -35px;
+        cursor: pointer;
+        
+    }
+    .three
+    {
+        
+        
+        position: relative;
+        width: 35px;
+        height: 5px;
+        background-color: darkgray;
+        left: 223.5%;
+        bottom: -45px;
+        cursor: pointer;
+        
+    } */
+    /* .hamburger
+    {
+        position: absolute;
+        display: flex;
+        
+    }
+    
+    .one:hover .login
+    {
+        display: none;
+        border: 1px solid red;
+        /* position: absolute;
+        left: 195px;
+        top: 23px;
+        
+
+    }
+    .one:hover .cart
+    {
+        display: flex;
+    }
+    .one:hover .orders
+    {
+        display: flex;
+    }
+     */
+  }
+  .logoCart
+  {
+      /* border: 2px solid red; */
+      width: 40px;
+      height: 40px;
+      margin-left: 5px;
+      position: relative;
+      left: 1px;
+      bottom: -10px;
+      
+  }
+  .count
+  {
+      position: relative;
+      font-size: 13.5px;
+      border-radius: 50%;
+      background-color: rgb(238, 61, 61);
+      width: 15%;
+      padding: 4px;
+      left: 95px;
+      top: -45px;
+      text-align: center;
+  }
+/*.list
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        flex: content;
+        border: 1px solid red;
+        width: 100%;
+        font-size: 17px;
+        justify-content: center;
+        margin-top: 15px;
+    }
+     .estore
+    {
+        border: 1px solid red;
+        position: relative;
+        left: -10.5%;
+        padding: 2px;
+       padding-top: 10px;
+    } 
+    .home
+    {
+        border: 1px solid red;
+        position: absolute;
+        margin-left: 9.5%;
+        margin-top: 12px;
+        
+    }
+    .cart
+    {
+        border: 1px solid red;
+        position: absolute;
+        margin-left: 46%;
+        top: 6px;
+       
+    }
+    .orders
+    {
+        border: 1px solid red;
+        position: relative;
+        left: -77px;
+        padding-top: 10px;
+    }
+    .login
+    {
+        border: 1px solid red;
+        position: absolute;
+        left: 195px;
+        top: 23px;
+
+    }
+     .logoCart
+    {
+        border: 1px solid red;
+        margin-right: -32px;
+    } 
+    .count
+    {
+        position: absolute;
+        margin-left: -10px;
+               
+    }
+    
+   */
+  
+  /* .nav
+  {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      /* padding-bottom:/?%; 
+      width:100%;
+  }
+  .list
+  {
+      border: 1px solid red;
+      flex: content;
+     padding-top: 20px;
+      font-size: 17px;
+      font-family: 'Times New Roman', Times, serif;
+      width: 100%;
+  }
+  .home
+  {
+      /* margin-right: 200px; 
+      margin-left:110px;
+      margin-top:-30px;
+  }
+  .cart{
+      margin-left: 15px;
+      margin-top:-30px;
+      margin-top: -28px;
+      /* border: 2px solid red; 
+  }
+  .logoCart
+  {
+      /* border: 2px solid red; 
+      margin-right: -40px;
+      
+  }
+  .count
+  {
+      /* border: 2px solid red; 
+      margin-left: 10px;
+  }
+  .orders
+  {
+      margin-top:-30px;
+      margin-left: 27px;
+      /* padding-right: 50px; 
+      padding-bottom: 0px;
+       border: 2px solid red; 
+  }
+  .login{
+      margin-left: -20px;
+      font-size:27px;
+  }*/

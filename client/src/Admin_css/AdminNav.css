@@ -1,0 +1,42 @@
+.navContainer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(78, 74, 74, 0.925);
+    height: 90px;
+    /* justify-items: space-between; */
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.navBox
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: flex-end;
+    padding-right: 4%;
+    align-content: center;
+}
+.navLinks
+{
+    margin-right: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    font-size: 20px;
+    font-weight: 600;
+}
+.navLogo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    /* justify-content: center; */
+    align-content: center;
+    margin-left: 20px;
+
+}
