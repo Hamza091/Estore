@@ -8,7 +8,7 @@ var app = express()
 var jsonParser = bodyParser.json()
 app.use(cors())
 console.log("hellow")
-app.use(express.static('client/build'));
+app.use(express.static('./client/build'));
 app.use('/api',jsonParser,Data)
 app.get('*',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'client','build','index.html'));
