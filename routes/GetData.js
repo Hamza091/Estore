@@ -3,7 +3,7 @@ var router = express.Router()
 var mongoose = require('mongoose')
 var getData = require('../controllers/Data')
 var bodyParser = require('body-parser')
-var userLogin = require('../controllers/login')
+var userLogin = require('../controllers/Login')
 var userData = require('../controllers/UserData')
 var postData = require('../controllers/PostData')
 
