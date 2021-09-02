@@ -1,6 +1,5 @@
-const { ObjectID, ObjectId } = require('mongodb')
 var mongoose = require('mongoose')
-const login = new mongoose.Schema(
+const userLogin = new mongoose.Schema(
     {
         // _id:{type:ObjectId,required:false},
         FirstName:{type:String,required:true},
@@ -13,4 +12,4 @@ const login = new mongoose.Schema(
     }
 )
 
-module.exports=mongoose.model('userLogin',login,'login')
+module.exports=mongoose.model('userLogin',userLogin,'login')
